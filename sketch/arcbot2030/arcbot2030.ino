@@ -1,9 +1,10 @@
 /*
-  XMAS Project
+  Project Name: ARCBOT2030 - ARC XMAS 2024 Project
 
-  Christmas project for work gift exchange. Simply circuit and logic
+  Description:
+  Christmas project for work gift exchange. Simple circuit and logic
   to display Temperature, Humidity, and a Sit/Stand Timer using
-  both LEDs and OLED
+  both LEDs and OLED. 
 
   Component Checklist:
   1x Arduino Uno
@@ -36,37 +37,39 @@
     T1A     -> Arduino:5 (INPUT_PULLUP)
     T2A     -> Arduino:GND
   LED_WHITE_1
-    Anode   -> Arduino:6
-    Cathode -> 220Ohm -> Arduino:GND
+    Anode   -> 220Ohm -> Arduino:6
+    Cathode -> Arduino:GND
   LED_WHITE_2
-    Anode   -> Arduino:7
-    Cathode -> 220Ohm -> Arduino:GND
+    Anode   -> 220Ohm -> Arduino:7
+    Cathode -> Arduino:GND
   LED_RED_1
-    Anode   -> Arduino:8
-    Cathode -> 220Ohm -> Arduino:GND
+    Anode   -> 220Ohm -> Arduino:8
+    Cathode -> Arduino:GND
   LED_RED_2
-    Anode   -> Arduino:9
-    Cathode -> 220Ohm -> Arduino:GND
+    Anode   -> 220Ohm -> Arduino:9
+    Cathode -> Arduino:GND
   LED_GREEN_1
-    Anode   -> Arduino:10
-    Cathode -> 220Ohm -> Arduino:GND
+    Anode   -> 220Ohm -> Arduino:10
+    Cathode -> Arduino:GND
   LED_GREEN_2
-    Anode   -> Arduino:11
-    Cathode -> 220Ohm -> Arduino:GND
+    Anode   -> 220Ohm -> Arduino:11
+    Cathode -> Arduino:GND
   LED_BLUE_1
-    Anode   -> Arduino:12
-    Cathode -> 220Ohm -> Arduino:GND
+    Anode   -> 220Ohm -> Arduino:12
+    Cathode -> Arduino:GND
   LED_BLUE_2
-    Anode   -> Arduino:13
-    Cathode -> 220Ohm -> Arduino:GND
+    Anode   -> 220Ohm -> Arduino:13
+    Cathode -> Arduino:GND
 
-  Created 09.29.2024
-  By Steve Cundy
-  Modified 09.29.2024
-  By Steve Cundy
+  Creation Date: 09.29.2024
+  Author: Steve Cundy
+  Version: 1.0.1
+  
+  Changelog:
+  [9.29.2024] - Version 1.0.0 - Initial release
+  [10.29.2024] - Version 1.0.1 - Revised documentation and circuit design to match reality
 
-  https://github.com/sjcundy/arcbot2030
-  https://wokwi.com/projects/409850507112597505
+  Source: https://github.com/sjcundy/arcbot2030
 
 *///###################################################################
 // Include the necessary Libraries
